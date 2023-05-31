@@ -1,26 +1,7 @@
 # An Intelligent Modular Real-Time Vision-Based System for Environment Perception
 
-A significant portion of driving hazards is caused by human error and disregard for local driving regulations; consequently, an intelligent assistance system can be beneficial. Hence, we propose a vision-based modular package to ensure drivers’ safety by perceiving the environment. Each module is designed based on accuracy and inference time to deliver real-time performance. As a result, the proposed system can be implemented on a wide range of vehicles with minimum hardware requirements. Our modular package comprises four main sections: lane detection, object detection, segmentation, and monocular depth estimation. Each section is accompanied by novel techniques to improve the accuracy of others along with the entire system. Furthermore, a GUI is developed to display perceived information to the driver. 
+With the increasing number of vehicles and population, road congestion has become a major problem, which increases the risk of road accidents. To enhance road safety, image processing techniques can be used to detect and objects in images. There are two types of CNN-based approaches for object detection: two-stage and one-stage methods[1]. One-stage methods like YOLO can detect objects in real-time with high accuracy, while two-stage methods are more accurate but slower. Real-time classification of intelligent transport systems using CNN-based models such as YOLO and DRoINs can achieve high accuracy rates for object detection.
 
-![overall_diagram](https://user-images.githubusercontent.com/61879630/199366037-69f5a025-73d5-428b-a2de-5742532946d3.jpg)
-
-
-## Citation
-```python
-
-@article{kazerouni2023intelligent,
-  title={An intelligent modular real-time vision-based system for environment perception},
-  author={Kazerouni, Amirhossein and Heydarian, Amirhossein and Soltany, Milad and Mohammadshahi, Aida and Omidi, Abbas and Ebadollahi, Saeed},
-  journal={arXiv preprint arXiv:2303.16710},
-  year={2023}
-
-```
-
-## Updates
-
-- October 20, 2022: Accepted in NeurIPS 2022 Workshop on Machine Learning for Autonomous Driving! :fire:
-- February 5, 2021: Won 1st place in the National Rahneshan competition 2020-2021 for autonomous vehicles! :tada:
-- January 10, 2021: First release.
 
 
 ## Results
@@ -67,7 +48,7 @@ Simply open the following colab notebook
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pandas-Team/Autonomous-Vehicle-Environment-Perception/blob/main/Instructions.ipynb)
 
-## Cited Works
+
 1. Yolov5 ([Github](https://github.com/ultralytics/yolov5))
 2. SGDepth ([Github](https://github.com/ifnspaml/SGDepth))
 3. PINet ([Github](https://github.com/koyeongmin/PINet_new))
@@ -80,17 +61,3 @@ Please download from [here](https://drive.google.com/uc?export=download&id=1-bRF
 ### Sign Datasets:
 1. Traffic-Sign Detection and Classification in the Wild [Link](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
 2. DFG Traffic Sign Data Set [Link](https://www.vicos.si/Downloads/DFGTSD#:~:text=Dataset%20consists%20of%20200%20traffic,around%207000%20high%2Dresolution%20images.&text=The%20images%20have%20been%20anonymized,with%20the%20EU%20GDPR%20legislation.)
-
-
-## Our Team
-We as Team Pandas won 1st place in the National Rahneshan competition 2020-2021 for autonomous vehicles. This contest has been one of the most competitive and challenging contests in the Rahneshan tournaments with more than 15 teams competing from top universities in Iran.
-![Pandas6](https://user-images.githubusercontent.com/44018277/113591619-5e12c700-9649-11eb-805d-dd504081456e.jpg)
-
-### Contact us
-Feel free to contact us via email or connect with us on linkedin.
-
-- Milad Soltany --- [Linkedin](https://www.linkedin.com/in/milad-soltany/), [Github](https://github.com/miladsoltany) , [Email](mailto:soltany.m.99@gmail.com)
-- Abbas Omidi --- [Linkedin](https://www.linkedin.com/in/abbasomidi77/), [Github](https://github.com/abbasomidi77), [Email](mailto:abbasomidi77@gmail.com)
-- Amirhossein Kazerouni ---  [Linkedin](https://www.linkedin.com/in/amirhossein477/), [Github](https://github.com/amirhossein-kz), [Email](mailto:Amirhossein477@gmail.com )
-- Amirhossein Heydarian ---  [Linkedin](https://www.linkedin.com/in/amirhosseinh77/), [Github](https://github.com/amirhosseinh77), [Email](mailto:amirhossein4633@gmail.com )
-- Aida Mohammadshahi ---  [Linkedin](https://www.linkedin.com/in/aida-mohammadshahi-9845861b3/), [Github](https://github.com/aidamohammadshahi), [Email](mailto:aidamoshahi@gmail.com)
